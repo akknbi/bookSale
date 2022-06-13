@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bookSale-dao" />
+        <module name="model" />
+        <module name="utils" />
+        <module name="bookSale-controller" />
+        <module name="bookSale-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bookSale-service" target="1.8" />
+      <module name="bookSaleservice" target="1.8" />
+      <module name="bookSaleutils" target="1.8" />
+      <module name="service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bookSale-controller" options="-parameters" />
+      <module name="bookSale-dao" options="-parameters" />
+      <module name="bookSale-service" options="-parameters" />
+      <module name="bookSaleutils" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="utils" options="-parameters" />
+    </option>
+  </component>
+</project>
